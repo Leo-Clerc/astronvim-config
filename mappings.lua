@@ -33,10 +33,10 @@ return {
     ["<A-)"] = {"]", desc = "Bracket"},
 
     -- Useful mappings
-    ["<C-u>"] = {"<C-u>zz", desc = "Move up half a screen"}
-    ["<C-d>"] = {"<C-d>zz", desc = "Move down half a screen"}
-    ["<C-b>"] = {":bprevious<CR>", desc = "Previous buffer"}
-    ["<C-n>"] = {":bnext<CR>", desc = "Next buffer"}
+    ["<C-u>"] = {"<C-u>zz", desc = "Move up half a screen"},
+    ["<C-d>"] = {"<C-d>zz", desc = "Move down half a screen"},
+    ["<C-b>"] = {":bprevious<CR>", desc = "Previous buffer"},
+    ["<C-n>"] = {":bnext<CR>", desc = "Next buffer"},
 
   },
   t = {
@@ -44,13 +44,13 @@ return {
     -- ["<esc>"] = false,
   },
   i = {
-    ["<A-("] = {"[", desc = "Bracket"}
-    ["<A-)"] = {"]", desc = "Bracket"}
-    ["§"] = {"\\", desc = "Who the heck uses § anyway ???"}
+    ["<A-("] = {"[", desc = "Bracket"},
+    ["<A-)"] = {"]", desc = "Bracket"},
+    ["§"] = {"\\", desc = "Who the heck uses § anyway ???"},
   },
   v = {
     ["p"] = {"_dP", desc = "Replace selection with content in buffer"}
-  }
+  },
 }
 
 
